@@ -1,0 +1,23 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Fashon",
+    "dateExported": "2023-12-29T06:23:53.180Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1912e949-a520-433a-b8fe-2ec5f1a69ca0",
+            "colId": "27afd772-eb8d-44e7-a3ad-e2e97e2a355e",
+            "containerId": "",
+            "name": "http://localhost:5000/Chat",
+            "url": "http://localhost:5000/Chat",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-29T06:22:00.543Z",
+            "modified": "2023-12-29T06:22:00.543Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

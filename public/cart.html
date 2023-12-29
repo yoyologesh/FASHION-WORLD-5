@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="/info">
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .col-4 {
+            width: 23%;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .col-4 img {
+            width: 100%;
+            height: auto;
+        }
+
+        .price {
+            font-weight: bold;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        .quantity {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .size-select {
+            margin-left: 5px;
+        }
+
+        .btn {
+            display: table-cell;
+            padding: 10px 20px;
+            background-color: #f10e21;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Product Page</title>
+</head>
+<body>
+
+<h2 class="title">Shopping Items</h2>
+
+<div class="row">
+    <!-- Product 1 -->
+    <div class="col-4">
+        <img src="image/nike1.jpg" alt="Nike Shoes">
+        <h4>Nike Shoes</h4>
+        <p class="price">₹799.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size1">Size:</label>
+            <select id="size1" class="size-select">
+                <option value="s">7</option>
+                <option value="m">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-4">
+        <img src="image/shoe333.jpg" alt="Funky Shoes">
+        <h4>Funky Shoes</h4>
+        <p class="price">₹899.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size2">Size:</label>
+            <select id="size2" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-4">
+        <img src="image/shoe4.png" alt="Casual Shoes">
+        <h4>Casual Shoes</h4>
+        <p class="price">₹599.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size3">Size:</label>
+            <select id="size3" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-4">
+        <img src="image/shoeD.jpg" alt="Sports Shoes">
+        <h4>Sports Shoes</h4>
+        <p class="price">₹799.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size4">Size:</label>
+            <select id="size4" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Product 1 -->
+    <div class="col-4">
+        <img src="image/shoe5.png" alt="Loffers">
+        <h4>Loffers</h4>
+        <p class="price">₹699.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size1">Size:</label>
+            <select id="size1" class="size-select">
+                <option value="s">7</option>
+                <option value="m">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-4">
+        <img src="image/shoeA.jpg" alt="Adidas Shoe">
+        <h4>Adidas Shoes</h4>
+        <p class="price">₹899.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size2">Size:</label>
+            <select id="size2" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-4">
+        <img src="image/shoeB.jpg" alt="Formal Shoes">
+        <h4>Formal Shoes</h4>
+        <p class="price">₹499.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size3">Size:</label>
+            <select id="size3" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-4">
+        <img src="image/shoeC.jpg" alt="Woodland Shoes">
+        <h4>Woodland Shoes</h4>
+        <p class="price">₹999.00</p>
+        <div class="options">
+            <div class="quantity">
+                <button class="decrease-btn">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <label for="size4">Size:</label>
+            <select id="size4" class="size-select">
+                <option value="s">6</option>
+                <option value="m">7</option>
+                <option value="xl">8</option>
+                <option value="l">9</option>
+                <option value="xxl">10</option>
+            </select>
+        </div>
+        <a href="/info" class="btn buy-now-btn">Buy-Now &#8594;</a>
+    </div>
+</div>
+
+<script src="css/cart.js"></script>
+
+</body>
+</html>

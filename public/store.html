@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="store.html">
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .welcome-container {
+            background-color: #f8f8f8;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .welcome-message {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .close-button {
+            background-color: #007bff;
+            color: #f30e0e;
+            border: none;
+            padding: 20px 40px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Welcome to My Store</title>
+</head>
+<body>
+
+<div class="welcome-container">
+    <div class="welcome-message">
+        <p>Welcome to our store! Explore our latest collection of shoes and dresses.</p>
+    </div>
+    <a href="/" class="btn">close &#8594;</a>
+</div>
+
+<!-- Your existing website content goes here -->
+
+<script>
+    // JavaScript function to close the welcome message
+    function closeWelcome() {
+        document.querySelector('.welcome-container').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
