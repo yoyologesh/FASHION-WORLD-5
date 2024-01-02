@@ -16,9 +16,7 @@ Demo Video URL
 
 Demo URL
 
-Contributing
-
-](url)
+Contributing](url)
 
 Introduction
 
