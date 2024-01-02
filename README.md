@@ -7,19 +7,27 @@ Features
 System Architecture
 
 Components
+
 Technologies Used
+
 Screenshots
+
 Demo Video URL
+
 Demo URL
+
 Contributing
+
 
 Introduction
 
  Welcome to our Fashion World website, where style meets innovation. Dive into a realm of curated trends, exclusive designs, and fashion-forward inspiration. Elevate your wardrobe as we guide you through the latest in haute couture and everyday elegance. Explore the intersection of creativity and craftsmanship as we redefine the language of fashion. Welcome to a digital space where your style journey begins.
+ 
 
 Features
 
 Premium Materials: Explore a selection of shoes crafted from high-quality materials, ensuring both durability and a luxurious feel with every stepComfort Technology: Experience unparalleled comfort with advanced shoe technologies, designed to support your feet throughout the day without compromising on style.
+
 
 Components
 
@@ -32,6 +40,7 @@ Frontend: html css js
 Backend: node js
 
 Cloud Services: Resourcegroup Webapp Virtual network Vnet Intergration Monitor Azurebot
+
 
 Screenshots
 
