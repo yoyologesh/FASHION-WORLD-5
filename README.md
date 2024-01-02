@@ -1,7 +1,7 @@
 Table of Contents
 
-[[Introduction
-Features
+[[Introduction]
+[Features]
 System Architecture
 Components
 Technologies Used
