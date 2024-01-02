@@ -1,17 +1,14 @@
 Table of Contents
 
-.Introduction
-**aaaaa**
-
-.Features
-
-.System Architecture
-.Components
-.Technologies Used
-.Screenshots
-.Demo Video URL
-.Demo URL
-.Contributing
+Introduction
+Features
+System Architecture
+Components
+Technologies Used
+Screenshots
+Demo Video URL
+Demo URL
+Contributing
 
 Introduction
 
