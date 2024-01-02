@@ -1,15 +1,23 @@
 Table of Contents
 
-Introduction
-Features
-System Architecture
-Components
-Technologies Used
-Screenshots
-Demo Video URL
-Demo URL
-Contributing
+**Introduction
 
+Features
+
+System Architecture
+
+Components
+
+Technologies Used
+
+Screenshots
+
+Demo Video URL
+
+Demo URL
+
+Contributing
+**
 Introduction
 
  Welcome to our Fashion World website, where style meets innovation. Dive into a realm of curated trends, exclusive designs, and fashion-forward inspiration. Elevate your wardrobe as we guide you through the latest in haute couture and everyday elegance. Explore the intersection of creativity and craftsmanship as we redefine the language of fashion. Welcome to a digital space where your style journey begins.
