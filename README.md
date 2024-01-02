@@ -1,6 +1,7 @@
 Table of Contents
 
 [[Introduction]
+
 [Features]
 System Architecture
 Components
