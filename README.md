@@ -1,5 +1,5 @@
-Fashion World Website
-Welcome to the Fashion World website, a platform for exploring and purchasing trendy footwear.
+Fashion World 
+Welcome to the Fashion World , a platform for exploring and purchasing trendy footwear.
 
 Table of Contents
 Description
